@@ -24,4 +24,4 @@ d_1 = {"AEIOULNSTRАВЕИНОРСТ": 1, "DGДКЛМПУ": 2,"BCMPБГЁЬЯ": 
 a = input("Введите слово: ")
 
 # В кортеже: 0 - это буквы, 1 - это баллы. Выводим сумму баллов
-print(sum([i[1] for i in d_1.items() for j in word if j.upper() in i[0]]))
+print(sum([i[1] for i in d_1.items() for j in a if j.upper() in i[0]]))
